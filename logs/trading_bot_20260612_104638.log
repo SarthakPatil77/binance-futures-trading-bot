@@ -1,0 +1,6 @@
+2026-06-12 10:46:38 | INFO     | root | Logging initialized. Log file: logs\trading_bot_20260612_104638.log
+2026-06-12 10:46:38 | INFO     | __main__ | Trading bot started
+2026-06-12 10:46:38 | INFO     | bot.client | BinanceClient initialized. Base URL: https://testnet.binancefuture.com
+2026-06-12 10:46:38 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-06-12 10:46:39 | DEBUG    | urllib3.connectionpool | https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1781241398704&signature=65fd48eff6eb1006c4b45197ec03923c6b0d4fdd9d61ba1182e691a3e2bf273f HTTP/1.1" 401 69
+2026-06-12 10:46:39 | ERROR    | bot.client | API error -2015: Invalid API-key, IP, or permissions for action

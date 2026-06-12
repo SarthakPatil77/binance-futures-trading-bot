@@ -1,0 +1,14 @@
+2026-06-12 10:56:25 | INFO     | root | Logging initialized. Log file: logs\trading_bot_20260612_105625.log
+2026-06-12 10:56:25 | INFO     | __main__ | Trading bot started
+2026-06-12 10:56:25 | DEBUG    | bot.validators | Symbol validated: BTCUSDT
+2026-06-12 10:56:25 | DEBUG    | bot.validators | Side validated: BUY
+2026-06-12 10:56:25 | DEBUG    | bot.validators | Order type validated: LIMIT
+2026-06-12 10:56:25 | DEBUG    | bot.validators | Quantity validated: 0.001
+2026-06-12 10:56:25 | DEBUG    | bot.validators | Price validated: 100000.0
+2026-06-12 10:56:25 | DEBUG    | bot.validators | All params validated: symbol=BTCUSDT, side=BUY, type=LIMIT, qty=0.001
+2026-06-12 10:56:25 | INFO     | bot.client | BinanceClient initialized. Base URL: https://testnet.binancefuture.com
+2026-06-12 10:56:25 | INFO     | bot.orders | Placing LIMIT order: BUY 0.001 BTCUSDT @ 100000.0
+2026-06-12 10:56:25 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-06-12 10:56:26 | DEBUG    | urllib3.connectionpool | https://testnet.binancefuture.com:443 "POST /fapi/v1/order HTTP/1.1" 400 65
+2026-06-12 10:56:26 | ERROR    | bot.client | API error -4016: Limit price can't be higher than 66640.14.
+2026-06-12 10:56:26 | ERROR    | bot.orders | LIMIT order failed — BinanceAPIError -4016: Limit price can't be higher than 66640.14.

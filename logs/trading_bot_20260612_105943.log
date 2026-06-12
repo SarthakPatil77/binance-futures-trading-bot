@@ -1,0 +1,7 @@
+2026-06-12 10:59:43 | INFO     | root | Logging initialized. Log file: logs\trading_bot_20260612_105943.log
+2026-06-12 10:59:43 | INFO     | __main__ | Trading bot started
+2026-06-12 10:59:43 | INFO     | bot.client | BinanceClient initialized. Base URL: https://testnet.binancefuture.com
+2026-06-12 10:59:43 | DEBUG    | bot.client | REQUEST GET https://testnet.binancefuture.com/fapi/v2/account | params: {'timestamp': 1781242183332}
+2026-06-12 10:59:43 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-06-12 10:59:44 | DEBUG    | urllib3.connectionpool | https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1781242183332&signature=a43cb48922a55ca9e0a30830ea16f79c0ff15d765f71eca7bf6037229a539f74 HTTP/1.1" 200 None
+2026-06-12 10:59:44 | DEBUG    | bot.client | RESPONSE HTTP 200 | body: {"feeTier":0,"canTrade":true,"canDeposit":true,"canWithdraw":true,"feeBurn":true,"tradeGroupId":-1,"updateTime":0,"multiAssetsMargin":false,"totalInitialMargin":"3.17275000","totalMaintMargin":"0.25382000","totalWalletBalance":"4999.97462224","totalUnrealizedProfit":"0.01060000","totalMarginBalance":"4999.98522224","totalPositionInitialMargin":"3.17275000","totalOpenOrderInitialMargin":"0.00000000","totalCrossWalletBalance":"4999.97462224","totalCrossUnPnl":"0.01060000","availableBalance":"4996.

@@ -1,0 +1,14 @@
+2026-06-12 10:59:55 | INFO     | root | Logging initialized. Log file: logs\trading_bot_20260612_105955.log
+2026-06-12 10:59:56 | INFO     | __main__ | Trading bot started
+2026-06-12 10:59:56 | DEBUG    | bot.validators | Symbol validated: BTCUSDT
+2026-06-12 10:59:56 | DEBUG    | bot.validators | Side validated: BUY
+2026-06-12 10:59:56 | DEBUG    | bot.validators | Order type validated: MARKET
+2026-06-12 10:59:56 | DEBUG    | bot.validators | Quantity validated: 0.001
+2026-06-12 10:59:56 | DEBUG    | bot.validators | All params validated: symbol=BTCUSDT, side=BUY, type=MARKET, qty=0.001
+2026-06-12 10:59:56 | INFO     | bot.client | BinanceClient initialized. Base URL: https://testnet.binancefuture.com
+2026-06-12 10:59:56 | INFO     | bot.orders | Placing MARKET order: BUY 0.001 BTCUSDT
+2026-06-12 10:59:56 | DEBUG    | bot.client | REQUEST POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1781242196017}
+2026-06-12 10:59:56 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-06-12 10:59:56 | DEBUG    | urllib3.connectionpool | https://testnet.binancefuture.com:443 "POST /fapi/v1/order HTTP/1.1" 200 None
+2026-06-12 10:59:56 | DEBUG    | bot.client | RESPONSE HTTP 200 | body: {"orderId":14998235148,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"S49xaFLOW2sWzFuoq5l17i","price":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781242196723}
+2026-06-12 10:59:56 | INFO     | bot.orders | MARKET order success: orderId=14998235148, status=NEW

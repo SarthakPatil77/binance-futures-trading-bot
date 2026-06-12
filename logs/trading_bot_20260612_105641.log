@@ -1,0 +1,5 @@
+2026-06-12 10:56:41 | INFO     | root | Logging initialized. Log file: logs\trading_bot_20260612_105641.log
+2026-06-12 10:56:41 | INFO     | __main__ | Trading bot started
+2026-06-12 10:56:41 | INFO     | bot.client | BinanceClient initialized. Base URL: https://testnet.binancefuture.com
+2026-06-12 10:56:41 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-06-12 10:56:42 | DEBUG    | urllib3.connectionpool | https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?symbol=BTCUSDT&timestamp=1781242001639&signature=c1d456320599814c0cac69e0f78dcf3a9cec17e89cfae8eb815b3fe513c0f223 HTTP/1.1" 200 2
